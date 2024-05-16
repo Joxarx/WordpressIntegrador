@@ -1,0 +1,7 @@
+---
+# Tasks file for PHP Role
+- name: Install php extensions
+  apt:
+    pkg: ['php-gd', 'php-ssh2']
+    state: present
+  become: yes

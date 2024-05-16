@@ -1,0 +1,5 @@
+- hosts: wordpress
+  gather_facts: False
+
+  roles:
+    - wordpress
